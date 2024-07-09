@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Catalog</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<style>
+    body{
+    padding: 0px;
+    margin-top: 0px;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: vardana;
+    text-align: right;
+    /* margin-bottom: 5px;
+    /* margin-left: 10px; */
+    /* margin:0px;*/
+    /* margin-right: 20px;  */ */
+
+}
+header{
+    color: red;
+    background-color:white;
+    height:100px;
+}
+thead{
+    background-color: gainsboro;
+    color: blue;
+    font-weight:bolder;
+    font-size: 20px;
+}
+tbody{
+    background-color: silver;
+    color: red;
+}
+ /* .bookdetails{
+    width: 854.03px;
+}  */
+.add{
+width: 12%;
+justify-content: center;
+}
+#main{
+    font-size: 25px;
+}
+.about{
+    font-size: 25px;
+    text-align: justify;
+    color:rgb(218, 8, 8) ;
+}
+.about:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+.book{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:Roboto slab;
+    color: brown;
+    text-align: center;
+}
+.bname{
+    width: 8%;
+}
+.ct{
+    margin-top: 70px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 0px;
+    background-color: rgb(40, 156, 150);
+    border: 1px solid red;
+    border-radius: 5px;
+    text-shadow: 1px 8px 4px red;
+}
+.ct:hover{
+    color: red;
+    background-color: yellowgreen;
+    font-family: serif;
+    font-weight: bolder;
+}
+.img{
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 0px;
+}
+/* .img:hover{
+    opacity: 0.5px;
+    background-color: a;
+} */
+footer{
+    height: 50px;
+    background-color: silver;
+}
+.atc:hover{
+    background-color: antiquewhite;
+}
+
+
+</style>
+<body>
+    <header>
+       
+       <span><img src="#logo" alt="logo"></span><span><h1>MY LIBRARY CATALOG</h1></span>
+        
+        
+    </header>
+    <hr>
+    <main>
+        <table>
+            <thead>
+                <tr id="main">
+                    <th class="bname">Book Name</th>
+                    <th>Book Image</th>
+                    <th class="bookdetails">Book Details</th>
+                    <th class="add">Add to Cart</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+             <td class="book">BIG DATA</td>
+             <td> <img src="/library catalog/big data.jpg" alt="big data book" height="300px" width="224.59px"></td>
+             <td class="about">Author: Konda Hari Krishna, Vivek Veeraiah ,Dr. (Mrs.) A.Pankajam ,Dr. Bhagwant Singh, Language : English, Paperback : 220 pages</td>
+             <td class="atc"><img src="/library catalog/cart-removebg-preview.png" alt="cart image" height="120px" width="100px" class="img"><input type="button" value="add to cart" class="ct"> </td>
+             </tr>
+             <tr>
+                <td class="book">ETHICAL HACKING</td>
+                <td> <img src="/library catalog/ethical hacking.jpg" alt="big data book" height="300px" width="224.59px"></td>
+                <td class="about">Cybercrime is the biggest threat that every organization on the planet faces today! And it's not just the organizations that are vulnerable. People too are at risk of being targeted by hackers.</td>
+                <td class="atc"><img src="/library catalog/cart-removebg-preview.png" alt="cart image" height="120px" width="100px"  class="img"><input type="button" value="add to cart" class="ct"></td>
+                </tr>
+                <tr>
+                    <td class="book">JAVA</td>
+                    <td> <img src="/library catalog/java image.jpg" alt="big data book" height="300px" width="224.59px"></td>
+                    <td class="about">This book is intended for a one-semester, beginner’s level course on Java programming. It includes the new features included in JDK1.7. Each of its 16 chapters provide review questions for the readers to self-test their learning. “Try It Out” programs that enable the readers to develop programs for real life problems have also been included. </td>
+                    <td class="atc"><img src="/library catalog/cart-removebg-preview.png" alt="cart image" height="120px" width="100px"  class="img"><input type="button" value="add to cart" class="ct"></td>
+                    </tr>
+                    <tr>
+                        <td class="book">NETWORKING</td>
+                        <td> <img src="/library catalog/networking.jpg" alt="big data book" height="300px" width="224.59px"></td>
+                        <td class="about">Author:Scott Chesterton : Be Familiar with Computer Network Basics. Learn What a Computer Network is, Why It Matters and How Networking May Raise a Challenge to Machine Learning </td>
+                        <td class="atc"><img src="/library catalog/cart-removebg-preview.png" alt="cart image" height="120px" width="100px"  class="img"><input type="button" value="add to cart" class="ct"></td>
+                        </tr>
+                        <tr>
+                            <td class="book">PYTHON</td>
+                            <td> <img src="/library catalog/python.jpg" alt="big data book" height="300px" width="224.59px"></td>
+                            <td class="about">Author: Hi, I'm Mark Grahm.
+
+                                I'm the founder of the Programming Languages Academy.
+                                
+                                About two years ago, together with my partner and friend Thomas May, we decided to create an ambitious editorial project with will and dedication</td>
+                            <td class="atc"><img src="/library catalog/cart-removebg-preview.png" alt="cart image" height="120px" width="100px"  class="img"><input type="button" value="add to cart" class="ct"></td>
+                            </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <!-- write contact and address here -->
+    </footer>
+</body>
+</html>
